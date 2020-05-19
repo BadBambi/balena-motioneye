@@ -14,6 +14,8 @@ RUN pip2 install motioneye
 
 # RUN sed -i 's/.*enable-dbus=.*/enable-dbus=no/' /etc/avahi/avahi-daemon.conf
 
+# put in gist backup link varible here
+COPY gistURI/%%RESIN_MACHINE_NAME%%.conf
 COPY motioneye.conf.sample /usr/share/motioneye/extra/
 COPY start.sh ./
 

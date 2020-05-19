@@ -20,5 +20,5 @@ Some device settings can be adjusted with Device/Fleet service variables. These 
 
 ### Notes
 
-*   The current setup only supports ARMv7 devices (especially Raspberry Pi 3). Other device types are WIP
+*   The current setup only supports ARMv7 devices (especially Raspberry Pi 3) & now Zero W
 *   The default `docker-compose.yml` exposes 10 MotionEye camera streaming ports on the port range used by MotionEye by default (`8081-8090`), if need more than that, you need to edit the compose file.
